@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://abrakadabra.fun/uploads/posts/2022-03/1646917869_1-abrakadabra-fun-p-zadnii-fon-prostoi-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    text-align: center;
+    color: rgb(254, 242, 188);
+    opacity: 90%;
+}
+header p{
+    font-size: 20px;
+    font-style: italic;
+}
+#survey-form{
+    background-color: rgba(191, 250, 255, 0.3);
+    min-width: 300px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 30px;
+}
+.text-form label{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(254, 242, 188);
+    opacity: 90%;
+}
+.text-form input{
+    display: block;
+    width: 99%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    height: 30px;
+    background-color: rgba(229, 253, 255, 0.5);
+    font-family: monospace;
+}
+.form-group p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(254, 242, 188);
+    opacity: 90%;
+}
+#dropdown{
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: rgba(229, 253, 255, 0.5);
+    margin-top: -15px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    opacity: 90%;
+    font-family: monospace;
+}
+.rec-friend{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(254, 242, 188);
+    opacity: 90%;
+}
+.rec-friend>label{
+    display: block;
+}
+.rec-friend>p{
+    margin-bottom: 5px;
+}
+.improved>p{
+    margin-bottom: 5px;
+}
+.improved>label{
+    display: block;
+    margin-bottom: 5px;
+}
+.improved{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(254, 242, 188);
+    opacity: 90%;
+}
+textarea{
+    width: 100%;
+    background-color: rgba(229, 253, 255, 0.5);
+    font-family: monospace;
+    height: 50px;
+}
+button{
+    width: 100%;
+    height: 3em;
+    margin-top: 30px;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: rgba(41, 35, 69, 0.471);
+}
+button:hover{
+    background-color: rgba(83, 71, 137, 0.471);
+}
